@@ -1,4 +1,4 @@
-package com.coveo.challenge;
+package com.coveo.challenge.controllers;
 
 import java.security.InvalidParameterException;
 import java.util.ArrayList;
@@ -7,6 +7,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.coveo.challenge.City;
+import com.coveo.challenge.dao.CsvParser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;

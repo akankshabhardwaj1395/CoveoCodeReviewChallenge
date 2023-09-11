@@ -1,10 +1,11 @@
-package com.coveo.challenge;
+package com.coveo.challenge.dao;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.HashMap;
 
+import com.coveo.challenge.City;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -56,6 +57,7 @@ public class CsvParser
                 try {
                     city.elevation = Integer.parseInt(fields[15]);
                 } catch (NumberFormatException e) {
+                    //TODO: logging of error is missing as well as an alert can also be raised here
                     city.elevation = -1;
                 }
 

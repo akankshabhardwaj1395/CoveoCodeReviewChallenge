@@ -3,6 +3,8 @@
  */
 package com.coveo.challenge;
 
+import com.coveo.challenge.controllers.SuggestionsResource;
+import com.coveo.challenge.dao.CsvParser;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.test.util.ReflectionTestUtils;
