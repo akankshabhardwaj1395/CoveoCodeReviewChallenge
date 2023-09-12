@@ -1,6 +1,6 @@
 /**
  * Copyright (c) 2011 - 2019, Coveo Solutions Inc.
- */
+
 package com.coveo.challenge;
 
 import com.coveo.challenge.controllers.SuggestionsResource;
@@ -49,3 +49,4 @@ public class SuggestionsResourceTest
         Assertions.assertEquals(b, a);
     }
 }
+ */

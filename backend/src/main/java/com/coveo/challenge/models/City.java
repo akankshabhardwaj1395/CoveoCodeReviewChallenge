@@ -1,8 +1,9 @@
-package com.coveo.challenge;
+package com.coveo.challenge.models;
 
 /**
  * Class representing a city and it's attributes.
  */
+//TODO: this class can have getters and setters along with lombok annotations
 public class City
 {
     /**

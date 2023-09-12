@@ -5,7 +5,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.HashMap;
 
-import com.coveo.challenge.City;
+import com.coveo.challenge.models.City;
 import org.springframework.stereotype.Repository;
 
 /**
